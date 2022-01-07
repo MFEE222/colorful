@@ -230,51 +230,83 @@ tags: mfee222, colorful
 功能衡量用 PHP、JavaScript 開發
 
 - [ ] 註冊功能
+
     - [ ] 確認帳號是否存在
     - [ ] 分析帳號、密碼是否符合要求
     - [ ] 寄發註冊成功通知信
     - [ ] 社群帳號註冊功能
+
 - [ ] 登入功能
+
     - [ ] 記住我功能
     - [ ] 檢查是否有違反規則輸入
+
 - [ ] 密碼提示功能
+
 - [ ] 忘記密碼功能
+
 - [ ] 密碼重設功能
+
 - [ ] 常見問題搜尋、篩選功能
+
 - [ ] 購物車功能
+
     - [ ] 排序功能
     - [ ] 刪除功能
     - [ ] 新增功能
     - [ ] 小計功能（數量、金額）
+
 - [ ] 結帳功能
+
 - [ ] 付款功能
+
     - [ ] 使用 HTML Payment Request 模擬？
+
 - [ ] 社群功能
+
     - [ ] 商品評論功能
+
         - [ ] 星星評價
         - [ ] 留言評價
+
     - [ ] 地圖標記功能
+
 - [ ] 訂單成立功能
+
 - [ ] 訂單查詢功能
+
     - [ ] 篩選功能（最近幾筆資料）
+
 - [ ] 訂單退貨功能
+
 - [ ] 商品蒐藏功能
+
     - [ ] 標籤、群組功能
+
 - [ ] 下載功能
+
     - [ ] 自動打包、壓縮下載
     - [ ] 紀錄下載資訊
+
 - [ ] 商品預覽互動功能
+
     - [ ] 遮色片互動效果
+
 - [ ] 會員資料修改功能
+
     - [ ] 姓名修改
     - [ ] Email 修改
     - [ ] 帳號名稱修改
     - [ ] 密碼修改
+
 - [ ] 折價券查詢功能
 - [ ] 客服功能
+
     - [ ] 回報問題功能
     - [ ] 寄發系統信功能
+
 - [ ] 站內信件功能
+
     - [ ] 已讀、未讀功能
     - [ ] 標籤功能
 
@@ -295,13 +327,20 @@ tags: mfee222, colorful
 ## 開發環境
 
 - CSS 框架
+
     - Bootstrap / Tailwind
+
 - 庫
+
     - JQuery
+
 - 套件管理
+
     - npm
     - yarn
-- 套件
+
+- 套件 Package
+
     - bootstrap (css 框架)
     - tailwind (css 框架)
     - @fontawesome (fontawesome icon)
@@ -324,46 +363,65 @@ tags: mfee222, colorful
     - Others (其它)
         - http://jquery-plugins.net/
         - http://www.jqueryscript.net/
+
 - 框架
+
     - React.js
+
 - 版本控制
+
     - Git
     - GitHub
+
 - 代碼風格
+
     - Prettier
+
 - 開發流程
+
     - GitHub Flow
         - Commit 訊息格式
         - Merge / Pull Request
         - GitHub Issue 功能
+
 - 完成切版、RWD(SSR/CSR)、少許動態
     - 靜態切版
 - 動畫效果發想
 
 ## 開發環境建立
 - [nvm: Node 版本管理工具]()
+
     - [node]
     - [nvm]
     - [npm]
 
 - [Prettier: 格式化代碼](https://prettier.io/docs/en/index.html)
+
     - [安裝](https://prettier.io/docs/en/install.html)
-    1. 安裝 [Prettier](https://github.com/prettier/prettier-vscode) 插件在 VSCode，整合 Prettier 和編輯器
-    2. `Ctrl + Shift + P` 輸入 settings，選擇 Open Settings (JSON) 寫入下列代碼
-    ```
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    }
-    ``` 
-    > 如果不想設定 ` "editor.formatOnSave": true `，可以 `Ctrl + Shift + P` 鍵入 `Format Document` 來命令編輯器執行代碼排版
+
+        1. 安裝 [Prettier](https://github.com/prettier/prettier-vscode) 插件在 VSCode，整合 Prettier 和編輯器
+        2. `Ctrl + Shift + P` 輸入 settings，選擇 Open Settings (JSON) 寫入下列代碼
+
+        ```js
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        }
+        ``` 
+        > 如果不想設定 ` "editor.formatOnSave": true `，可以 `Ctrl + Shift + P` 鍵入 `Format Document` 來命令編輯器執行代碼排版
+
     - 設定
+
         - 設定檔 .prettierrc
         - 忽略檔案 .prettierignore
+
     - 文件
+
         - [設定選項](https://prettier.io/docs/en/options.html)
 
 - [pre-commit: Git 版本提交前腳本檢查](https://pre-commit.com)
+
+- []
 
 
 ## 階段
